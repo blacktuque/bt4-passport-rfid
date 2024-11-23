@@ -1,0 +1,213 @@
+MyAdminItem:
+CharItem:
+    - char:
+        type: string
+        default: a
+DigitTest:
+TagReader:
+AccelerometerTester:
+RoleGrant:
+    - role:
+        type: string
+        default: Participant
+Banana:
+    - uses_left:
+        type: integer
+        default: 1
+Orange:
+    - uses_left:
+        type: integer
+        default: 1
+KlifBar:
+    - uses_left:
+        type: integer
+        default: 1
+Pear:
+    - uses_left:
+        type: integer
+        default: 1
+Strawberry:
+    - uses_left:
+        type: integer
+        default: 1
+Cupcake:
+    - uses_left:
+        type: integer
+        default: 1
+Blueberry:
+    - uses_left:
+        type: integer
+        default: 1
+OrangeJuice:
+    - uses_left:
+        type: integer
+        default: 1
+Apple:
+    - uses_left:
+        type: integer
+        default: 1
+AppleJuice:
+    - uses_left:
+        type: integer
+        default: 1
+IceCream:
+    - uses_left:
+        type: integer
+        default: 1
+Fries:
+    - uses_left:
+        type: integer
+        default: 1
+Milkshake:
+    - uses_left:
+        type: integer
+        default: 1
+Popsicle:
+    - uses_left:
+        type: integer
+        default: 1
+RedBison:
+    - uses_left:
+        type: integer
+        default: 1
+MunstroEnergy:
+    - uses_left:
+        type: integer
+        default: 1
+Pineapple:
+    - uses_left:
+        type: integer
+        default: 1
+CannedTuna:
+    - uses_left:
+        type: integer
+        default: 1
+Water:
+    - uses_left:
+        type: integer
+        default: 1
+Pizza:
+    - uses_left:
+        type: integer
+        default: 1
+FlamepetalCrown:
+SunnySprout:
+ChromaBloom:
+PinkyFern:
+TropicalFern:
+BloodmoonPalm:
+NebulaBloom:
+EmberLily:
+Minutree:
+Firethorn:
+Glaciolux:
+Homeleaf:
+BluBlu:
+Longleaf:
+Twinflower:
+BoardyPlant:
+Ruby:
+Diamond:
+CosmicPrism:
+GoldStar:
+Emerald:
+Topaz:
+Amethyst:
+CanadianFlag:
+EnglishFlag:
+AmericanFlag:
+AustralianFlag:
+NewZealandFlag:
+EarthFlag:
+RussiaFlag:
+ChinaFlag:
+AvatarAstronaut:
+AvatarHeadHoncho:
+AvatarAnon:
+AvatarBTMan:
+AvatarMaskedCitizen:
+AvatarDucky:
+AvatarSurvivor:
+AvatarFruityFriend:
+BatteryVoltage:
+    percent:
+        type: integer
+        default: 100
+DancingSegments:
+    dances:
+        type: integer
+        default: 0
+Magic8Ball:
+Accelolight:
+    r:
+        type: integer
+        default: 0
+    g:
+        type: integer
+        default: 0
+    b:
+        type: integer
+        default: 0
+ZeroGTimer:
+    - ms_success:
+        type: integer
+        default: 1200
+    - high_score_ms:
+        type: integer
+        default: 0
+CryptoMiner:
+    - attempts: integer
+BTCoin:
+CookieClicker:
+    - high_score: integer
+HeadsUp:
+    - high_score: integer
+Contraversial:
+    - solved: 
+        type: boolean
+        default: false
+RickRoll:
+Bouncer:
+RainbowFlashlight:
+Tminus:
+    - launch_success: 
+        type: boolean
+        default: false
+ColoredFlashlight:
+    - r: 
+        type: integer
+        default: 128
+    - g:
+        type: integer
+        default: 128
+    - b:
+        type: integer
+        default: 128
+Stamp:
+    - talk_id_bitflag:
+        type: integer
+        default: 0
+    - village_id_bitflag:
+        type: integer
+        default: 0
+IDCard:
+BankCard:
+    - amount_donated:
+        type: integer
+        default: 0
+Gauntlet:
+    - used: 
+        type: boolean
+        default: false
+    - holder:
+        type: string
+        default: Charles
+UnknownRfid:
+ChallengeGrant:
+    - flag:
+        type: integer
+        default: 65535
+    - set:
+        type: boolean
+        default: true
+Neurolizer:
