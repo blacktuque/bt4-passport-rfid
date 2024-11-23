@@ -30,9 +30,7 @@ You can overwrite the tags you already have as well.
 
 ## Set up your PN532
 
-You will need a serial to USB device. Get the vendor and product id from dmesg when you plug it in.
-
-If it's differnet than below, edit the params before writing the file.
+Get the vendor and product id from dmesg when you plug it in. If it's differnet than below, edit the params before writing the file.
 
 This step ensures that the device has the appropriate permissions to access the device as a non-root user.
 
