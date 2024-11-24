@@ -35,7 +35,7 @@ Get the vendor and product id from dmesg when you plug it in. If it's differnet 
 This step ensures that the device has the appropriate permissions to access the device as a non-root user.
 
 ```
-echo 'SUBSYSTEMS=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="55d3", MODE="0666"' > /etc/udev/rules.d/99-usbftdi.rules
+sudo echo 'SUBSYSTEMS=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="55d3", MODE="0666"' > /etc/udev/rules.d/99-usbftdi.rules
 ```
 
 ## Running
