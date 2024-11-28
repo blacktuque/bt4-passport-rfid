@@ -18,10 +18,7 @@ You will need a PN532 breakout board and a serial to usb interface.
 - https://www.amazon.ca/dp/B00KKUECAO
 - https://www.amazon.ca/dp/B09WMDBKP4
 
-If you get a cheap one like this:
-- https://www.amazon.ca/dp/B07YFX5X9Y
-
-It should work for writing tags, but it definitely will not work to simulate the ATM active/active connection.
+If you get a cheap one like this (https://www.amazon.ca/dp/B07YFX5X9Y) it should work for writing tags, but it definitely will not work to simulate the ATM active/active connection.
 
 You will also need NTAG215 or NTAG216 tags. Example here: 
 - https://www.amazon.ca/dp/B0CPJ5DDCQ
