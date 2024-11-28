@@ -130,24 +130,24 @@ AvatarDucky:
 AvatarSurvivor:
 AvatarFruityFriend:
 BatteryVoltage:
-    percent:
+    - percent:
         type: integer
         default: 100
 DancingSegments:
-    dances:
+    - dances:
         type: integer
         default: 0
 Magic8Ball:
 Accelolight:
-    r:
+    - r:
         type: integer
-        default: 0
-    g:
+        default: 1
+    - g:
         type: integer
-        default: 0
-    b:
+        default: 1
+    - b:
         type: integer
-        default: 0
+        default: 1
 ZeroGTimer:
     - ms_success:
         type: integer
@@ -156,12 +156,18 @@ ZeroGTimer:
         type: integer
         default: 0
 CryptoMiner:
-    - attempts: integer
+    - attempts: 
+        type: integer
+        default: 0
 BTCoin:
 CookieClicker:
-    - high_score: integer
+    - high_score: 
+        type: integer
+        default: 0
 HeadsUp:
-    - high_score: integer
+    - high_score: 
+        type: integer
+        default: 0
 Contraversial:
     - solved: 
         type: boolean
